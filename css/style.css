@@ -14,20 +14,28 @@ a{
     width: 1350px;
     margin: 0 auto;
 }
+
+/* ======= Header Section Css code Start Here  */
+
 .header-box{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .header-link > ul > li {
     list-style: none;display: inline-block;
 }
 
-.header-link > ul > li>a {
+.header-link > ul > li> a {
     text-decoration: none;
     padding: 10px 20px;
-    font-weight: 600;font-size: 18px;
+    font-size: 17px;
+    display: inline-block;
+    color: #000;
+    font-weight: 300;
 }
+
 .contact-text{
     display: flex;
     justify-content: center;
@@ -48,4 +56,45 @@ padding: 13px 0;
     color: #32dbc6;
     margin: 0 10px;
     font-size: 16px;
+}
+
+.text-main-logo{
+    font-weight: 500;
+    color: #000;
+    font-size: 2rem;
+}
+
+.header-menu-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    background: #ffffff;
+}
+.logo-dot{
+    color: #32dbc6;
+    font-size: 40px;
+}
+/* ============= Header Section Css code End here  */
+
+/* Banner section css start here  */
+
+.banner-section{
+    background: url(../image/banner.webp);
+    width: 100%;
+    height: 88vh;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding: 120px 0;
+    position: relative;
+}
+
+.banner-contain{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
